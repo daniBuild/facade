@@ -1,0 +1,213 @@
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+}
+
+.container-why {
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-top: 5px solid orange;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-why {
+    border: 1px solid #ddd;
+    border-top: 5px solid orange;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-why p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.card-why img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.card-why h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-why p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 1.2em;
+}
+
+.price span {
+    font-weight: bold;
+}
+
+.card-show {
+    padding: 20px;
+    text-align: center;
+}
+
+.container-show {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+}
+
+.container-show .swiper-button-next {
+    color: #f26b3a;
+}
+
+.container-show .swiper-button-prev {
+    color: #f26b3a;
+}
+
+.card-show p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.card-show img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.card-show h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-show p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+/* Tablets and medium devices (768px and up) */
+@media (max-width: 768px) {
+    .container, .container-why {
+        width: 85%;
+    }
+
+    .card, .card-why, .card-show {
+        padding: 10px;
+    }
+
+    .card img, .card-why img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .card h3, .card-why h3, .card-show h3 {
+        font-size: 1.2em;
+    }
+
+    .price {
+        font-size: 1em;
+    }
+}
+
+/* Small devices (425px and up) */
+@media (max-width: 425px) {
+    .container, .container-why {
+        width: 70%;
+    }
+
+    .card, .card-why, .card-show {
+        padding: 5px;
+    }
+
+    .card img, .card-why img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .card h3, .card-why h3, .card-show h3 {
+        font-size: 1.1em;
+    }
+
+    .price {
+        font-size: 0.9em;
+    }
+}
+
+/* Extra small devices (375px and up) */
+@media (max-width: 375px) {
+    .container, .container-why {
+        width: 95%;
+    }
+
+    .card, .card-why, .card-show {
+        padding: 5px;
+    }
+
+    .card img, .card-why img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .card h3, .card-why h3, .card-show h3 {
+        font-size: 1em;
+    }
+
+    .price {
+        font-size: 0.8em;
+    }
+}
+
+/* Extra small devices (320px and up) */
+@media (max-width: 320px) {
+    .container, .container-why {
+        width: 100%;
+    }
+
+    .card, .card-why, .card-show {
+        padding: 5px;
+    }
+
+    .card img, .card-why img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .card h3, .card-why h3, .card-show h3 {
+        font-size: 0.9em;
+    }
+
+    .price {
+        font-size: 0.7em;
+    }
+}

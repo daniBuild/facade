@@ -1,0 +1,50 @@
+[
+  {
+    "h3": "Réparation de Façades.",
+    "p1": "Nous sommes spécialisés dans les réparations de façades en cimentage et crépis. Que vous ayez besoin d'une petite réparation ou d'une rénovation complète, contactez-nous.",
+    "p2": {
+      "price": "40$",
+      "text": "/ mètre carré"
+    }
+  },
+  {
+    "h3": "Rénovation de façades.",
+    "p1": "L'entretien régulier et les petites réparations sont d'excellents moyens de prolonger la durée de vie de votre façade, mais toutes les façades doivent être remplacées à un moment donné.",
+    "p2": {
+      "price": "20$",
+      "text": "/ mètre carré"
+    }
+  },
+  {
+    "h3": "Réalisation de façades neuves.",
+    "p1": "Réalisation de façades neuves Lorsque vous construisez une maison, il est essentiel de prévoir une façade durable. Nous concevrons un projet, choisirons les matériaux adaptés et effectuerons les travaux..",
+    "p2": {
+      "price": "200$",
+      "text": "/ projet"
+    }
+  },
+  {
+    "h3": "Service de façade personnalisé.",
+    "p1": "Service de façade personnalisé Nous sommes spécialisés dans les solutions personnalisées pour les façades. Que vous ayez besoin d'un design unique ou de matériaux spéciaux, contactez-nous.",
+    "p2": {
+      "price": "70$",
+      "text": "/ service"
+    }
+  },
+  {
+    "h3": "Service de Façade Personnalisé.",
+    "p1": "Nous sommes spécialisés dans les solutions personnalisées pour les façades. Que vous ayez besoin d'un design unique ou de matériaux spéciaux, contactez-nous.",
+    "p2": {
+      "price": "70$",
+      "text": "/ service"
+    }
+  },
+  {
+    "h3": "Service de Façade Personnalisé.",
+    "p1": "Nous sommes spécialisés dans les solutions personnalisées pour les façades. Que vous ayez besoin d'un design unique ou de matériaux spéciaux, contactez-nous.",
+    "p2": {
+      "price": "70$",
+      "text": "/ service"
+    }
+  }
+]
