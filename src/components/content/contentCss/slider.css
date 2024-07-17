@@ -5,6 +5,12 @@
     font-family: Arial, sans-serif;
 }
 
+#showcase {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .container-why {
     width: 70%;
     margin: 0 auto;
@@ -118,9 +124,6 @@
 
 /* Tablets and medium devices (768px and up) */
 @media (max-width: 768px) {
-    .container, .container-why {
-        width: 85%;
-    }
 
     .card, .card-why, .card-show {
         padding: 10px;
@@ -142,9 +145,6 @@
 
 /* Small devices (425px and up) */
 @media (max-width: 425px) {
-    .container, .container-why {
-        width: 70%;
-    }
 
     .card, .card-why, .card-show {
         padding: 5px;

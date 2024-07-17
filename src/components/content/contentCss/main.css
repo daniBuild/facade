@@ -176,7 +176,7 @@ p {
     }
 
     .good {
-        font-size: 60px;
+        font-size: 40px;
     }
 
     .first {
@@ -265,7 +265,7 @@ p {
     }
 
     .good {
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .first {
@@ -291,7 +291,7 @@ p {
         width: 72%;
     }
     #vitrine {
-        width: 30%;
+        width: auto;
     }
 
     .handle {
@@ -428,7 +428,7 @@ p {
     }
 
     .good {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .first {
