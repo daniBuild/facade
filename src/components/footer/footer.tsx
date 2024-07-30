@@ -30,8 +30,8 @@ const Footer = () => {
                     <Toaster position="top-right" closeButton={true}/>
                     <h3>Contactez-nous</h3>
                     <p>+32 488 83 62 21</p>
-                    <p onClick={() => copyEmailToClipboard('info@danibild.be')}
-                       style={{cursor: 'pointer'}}>info@facade.be</p>
+                    <p onClick={() => copyEmailToClipboard('www.facade.be@gmail.com')}
+                       style={{cursor: 'pointer'}}>www.facade.be@gmail.com</p>
                 </div>
                 <div className="footer-section">
                     <h3>Visitez-nous</h3>
