@@ -8,7 +8,10 @@ import three from '../../photos/images/3.jpg'
 import four from '../../photos/images/4.jpg'
 import five from '../../photos/images/5.jpg'
 import six from '../../photos/images/6.jpg'
-import installation from '../../photos/images/installation.jpg'
+import seven from '../../photos/images/7.jpg'
+import eight from '../../photos/images/8.jpg'
+import nine from '../../photos/images/9.jpg'
+import ten from '../../photos/images/10.jpg'
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import './contentCss/slider.css'
 import 'swiper/css';
@@ -20,7 +23,7 @@ import {useState} from "react";
 
 const Showcase = (roofs: any) => {
 
-    const photo = [one, two, three, four, five, six]
+    const photos = [one, two, three, four, five, six, seven, eight, nine, eight]
     const [slidesCount, setSlidesCount] = useState(3);
 
     const checkWidth = () => {
@@ -52,11 +55,11 @@ const Showcase = (roofs: any) => {
                     onSlideChange={() => checkWidth()}
                     onSwiper={(swiper: any) => console.log(swiper)}
                 >
-                    {roofs.roofs.map((roof: any, index: number) => (
+                    {photos.map((photo: any, index: number) => (
                         <SwiperSlide>
                             <div className="swiper-slide" key={index}>
                                 <div className="card-show">
-                                    <img src={photo[index]} alt={roof.h3}/>
+                                    <img src={photo} alt=""/>
                                 </div>
                             </div>
                         </SwiperSlide>
