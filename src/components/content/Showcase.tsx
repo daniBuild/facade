@@ -43,7 +43,8 @@ const Showcase = (roofs: any) => {
     return (
         <div id="showcase">
             <div className="second-text">
-                <h2 className="provide" id="vitrine">Réalisations.</h2>
+                <h2 style={{display: "flex",
+                    justifyContent: "center"}} className="provide" id="vitrine">Réalisations.</h2>
             </div>
             <div className="container-show">
                 <Swiper
@@ -59,7 +60,7 @@ const Showcase = (roofs: any) => {
                         <SwiperSlide>
                             <div className="swiper-slide" key={index}>
                                 <div className="card-show">
-                                    <img src={photo} alt=""/>
+                                    <img src={photo} alt="" style={{height: "300px", width: "300px"}}/>
                                 </div>
                             </div>
                         </SwiperSlide>
